@@ -1,0 +1,77 @@
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/*
+    Paragraphs fade in one by one, up to 10 paragraphs.
+*/
+.animation-paragraph-fade p{
+    opacity: 0;
+}
+
+.animation-paragraph-fade p .animation-override {
+    opacity: 1;
+    animation: none;
+}
+
+
+.animation-paragraph-fade p:nth-child(1) {
+    animation: fadein 2s ease-in-out forwards;
+
+}
+
+.animation-paragraph-fade p:nth-child(2) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 3s;
+}
+
+.animation-paragraph-fade p:nth-child(3) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 5s;
+}
+
+.animation-paragraph-fade p:nth-child(4) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 7s;
+}
+
+.animation-paragraph-fade p:nth-child(5) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 9s;
+}
+
+.animation-paragraph-fade p:nth-child(6) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 11s;
+}
+
+.animation-paragraph-fade p:nth-child(7) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 13s;
+}
+
+
+.animation-paragraph-fade p:nth-child(8) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 15s;
+}
+
+.animation-paragraph-fade p:nth-child(9) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 17s;
+}
+
+.animation-paragraph-fade p:nth-child(10) {
+    animation: fadein 2s ease-in-out forwards;
+    animation-delay: 19s;
+}
+
+
+
+/*  For animating by span    */
+.animation-span-fade span {
+    opacity: 0;
+}
+

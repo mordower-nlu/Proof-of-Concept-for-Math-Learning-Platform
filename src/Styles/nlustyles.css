@@ -1,0 +1,138 @@
+:root {
+    --blue-dark: 21, 43, 81; /* Used for most dark backgrounds */
+    --blue: 50, 98, 149; /* used for hovering buttons */
+    --blue-light: 0, 156, 222; /* Used for some accents on website */
+    --nlu-blue-medium:#326295;
+    --nlu-blue-dark:#285886;
+    --nlu-blue-extra-dark:#20507D;
+    
+    /*color:white;*/
+    background-size:50vw;
+    background-position: 66vw 33vh;
+    background-repeat: no-repeat;
+    background-color: var(--nlu-blue-medium);
+
+    font-family: Inter, system-ui, "Barlow", Arial, sans-serif;
+     line-height: 1.5;
+     font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.87);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    max-width: 1280px;
+}
+
+
+body {
+    background-color: var(--nlu-blue-medium);
+    background-image: url(/page-bg.svg);
+    color:white;
+    background-size:50vw;
+    background-position: 66vw 33vh;
+    background-repeat: no-repeat;
+    font-family:  "Barlow", Arial, sans-serif;
+
+
+    
+}
+
+.content-container {
+    border-radius: 0.4rem;
+    box-shadow: 0 1px 2px 0 #0000001a;;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    box-sizing: content-box;
+    padding: 0;
+    border: 2px solid var(--nlu-blue-extra-dark);
+    max-width: 500px;
+}
+
+.content-container .content-header {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .08rem;
+    padding: .75rem;
+    background-color: var(--nlu-blue-dark);
+    margin: 0;
+
+}
+
+.content-container .content-body {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+   
+}
+
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.change-page-button {
+    background-color: var(--nlu-blue-dark);
+    border-color: #20507D;
+}
+
+.nav-sidebar {
+
+    padding-right: 3em;
+    
+}
+
+.btn {
+    background-color: var(--nlu-blue-dark);
+    border-color: #20507D;
+    width: 100%;
+}
+
+.button-group-header {
+    user-select: none;
+    background-color: var(--nlu-blue-dark);
+    color:white;
+
+    
+}
+
+.button-group-header:hover {
+    user-select: none;
+    background-color: var(--nlu-blue-dark);
+    color:white;
+    
+}
+
+.button-group-header:focus {
+    user-select: none;
+    background-color: var(--nlu-blue-dark);
+    color:white;
+    
+}
+
+.button-group-header:active {
+    user-select: none;
+    background-color: var(--nlu-blue-dark);
+    color:white;
+    
+}
+
+
+
+
+.glossary-tooltip {
+    background-color: var(--nlu-blue-medium);
+    border-color:var(--nlu-blue-extra-dark);
+    position: 'absolute';
+    padding: '0.2em 0.8em';
+    color: 'white';
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    max-width: 20%;
+}
