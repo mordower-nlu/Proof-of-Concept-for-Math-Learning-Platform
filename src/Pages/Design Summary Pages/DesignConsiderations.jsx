@@ -6,7 +6,7 @@ export function ListOfDesignConsiderations(){
     <div className="content-body">
         <p>Click on a topic below to reveal my design process re: said element.</p>
         <Accordion>
-            <Accordion.Item eventKey="0">
+            <Accordion.Item eventKey="0" id="color-scheme-design-guide">
                 <Accordion.Header>
                     Color Scheme
                 </Accordion.Header>
@@ -24,7 +24,7 @@ export function ListOfDesignConsiderations(){
             </Accordion.Item>
 
 
-            <Accordion.Item eventKey="1">
+            <Accordion.Item eventKey="1" id="font-design-guide">
                 <Accordion.Header>
                     Font Considerations
                 </Accordion.Header>
@@ -44,7 +44,7 @@ export function ListOfDesignConsiderations(){
                 </Accordion.Body>
             </Accordion.Item>
 
-            <Accordion.Item eventKey="2">
+            <Accordion.Item eventKey="2" id="layout-design-guide">
                 <AccordionHeader>
                     Layout Considerations
                 </AccordionHeader>
@@ -58,7 +58,7 @@ export function ListOfDesignConsiderations(){
                 </Accordion.Body>
             </Accordion.Item>
 
-            <AccordionItem eventKey="3">
+            <AccordionItem eventKey="3" id="animation-design-guide">
                 <AccordionHeader>Animation Design</AccordionHeader>
                 <AccordionBody>
                     <p>This <b>segmenting principle</b> informed my decision to animate text, so as only to present small doses of information at once.</p>
@@ -68,7 +68,8 @@ export function ListOfDesignConsiderations(){
                     <p>Inside of this code, there's a special variable that controls the speed at which new text appears. Eventually I'll make the speed adjustable by the user, but for now, it's stuck as is due to some quirks with the <a href={"https://react.dev/"} target="__blank">React</a> library I used to create this application.</p>
                 </AccordionBody>
             </AccordionItem>
-            <AccordionItem eventKey="4">
+
+            <AccordionItem eventKey="4" id="accessibility-design-guide">
                 <AccordionHeader>Accessibility Considerations</AccordionHeader>
                 <AccordionBody>
                     <p>Along the way, I tested to ensure I could navigate the website with a keyboard using the tab and enter keys. It's doable, though it gets slightly complicated when opening / closing "Accordion" subsections, like those on this page. Thankfully, nothing requires precise-clicking, either way.</p>
@@ -76,6 +77,7 @@ export function ListOfDesignConsiderations(){
                     <p>To keep up with readings for this class, I actually used a screen reader so I could hear audio while doing dishes or folding laundry, and one problem I kept running into: section titles that don't include punctuation confuse the readers. This means that alt text for section headers should include punctuation!</p>
                     <p>Down the line, once I implement better accessibility for DHH users, I'll contend with timing. Since screen readers will read the text at a different speed than the text-revealing animations, I anticipate some violations of the <b>temporal contiguity principle</b> for users relying on screen readers.</p>
                     <p>This also means that at some point, I'll have to include a toggle for disabling or fast-forwarding through the text animation, either way.</p>
+                    <p>For the embedded videos, I used Panopto's auto-caption feature, and then manually edited any errors in the generated captions.</p>
                 </AccordionBody>
             </AccordionItem>
         </Accordion>

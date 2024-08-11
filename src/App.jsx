@@ -14,13 +14,17 @@ import { DesignSummary } from './Pages/Design Summary Pages/DesignSummary';
 import { VocabDefinitionInterest } from './Pages/VocabDefinitionInterest';
 import { Glossary } from './Pages/GlossaryContainer';
 import { ThingsIdLikeToChange } from './Pages/Design Summary Pages/ThingsIdLikeToChange';
-import { ListOfDesignConsiderations } from './Pages/Design Summary Pages/VisualDesignConsiderations';
+import { ListOfDesignConsiderations } from './Pages/Design Summary Pages/DesignConsiderations';
+import { InterestVocabCheckForUnderstanding } from './Pages/VocabularyInterestCheck';
+import { InterestAnecdote1 } from './Pages/Sandra Example/InterestAnecdote1';
 
  //Glorified switch statement for deciding which content to render.
  const pages = [
   <InterestLessonOverview/>,
   <DefinitionOfInterestReflectionQuestion1/>,
   <VocabDefinitionInterest/>,
+  <InterestVocabCheckForUnderstanding/>,
+  <InterestAnecdote1/>,
   <DesignSummary/>,
   <ListOfDesignConsiderations/>,
   <ThingsIdLikeToChange/>
@@ -32,6 +36,8 @@ const pageDescriptions = [
   "Lesson Overview",
   "Why People Borrow",
   "Vocabulary: Interest",
+  "Vocab Check for Understanding: Interest",
+  "A Story About Interest: Part 1",
   "Project Context Summary",
   "Design Considerations",
   "Things I\'d Like to Improve for This App"

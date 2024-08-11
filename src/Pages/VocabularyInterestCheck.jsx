@@ -1,9 +1,11 @@
+import { PlaceholderContent } from "../Views/ContentViews/PlaceholderContent";
+
 export function InterestVocabCheckForUnderstanding(){
 
     return <>
-        <p className="content-header">Vocab Check: Interest</p>
+       <PlaceholderContent title={"Check for understanding: Interest"}/>
     
     
-    </>
+    </>;
 
 }

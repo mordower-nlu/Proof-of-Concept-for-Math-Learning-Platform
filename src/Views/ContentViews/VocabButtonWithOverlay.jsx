@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { Button, Overlay } from "react-bootstrap";
 
-export function VocabWordWithOverlay({term,definition}){
+export function VocabButtonWithOverlay({term,definition}){
     const [show,setShow] = useState(false);
     const target = useRef(null);
 
