@@ -17,6 +17,7 @@ import { ThingsIdLikeToChange } from './Pages/Design Summary Pages/ThingsIdLikeT
 import { ListOfDesignConsiderations } from './Pages/Design Summary Pages/DesignConsiderations';
 import { InterestVocabCheckForUnderstanding } from './Pages/VocabularyInterestCheck';
 import { InterestAnecdote1 } from './Pages/Sandra Example/InterestAnecdote1';
+import { ExternalTools } from './Pages/References/ExternalLibraryCitations';
 
  //Glorified switch statement for deciding which content to render.
  const pages = [
@@ -27,7 +28,8 @@ import { InterestAnecdote1 } from './Pages/Sandra Example/InterestAnecdote1';
   <InterestAnecdote1/>,
   <DesignSummary/>,
   <ListOfDesignConsiderations/>,
-  <ThingsIdLikeToChange/>
+  <ThingsIdLikeToChange/>,
+  <ExternalTools/>
 
 
 ]
@@ -40,7 +42,8 @@ const pageDescriptions = [
   "A Story About Interest: Part 1",
   "Project Context Summary",
   "Design Considerations",
-  "Things I\'d Like to Improve for This App"
+  "Things I\'d Like to Improve for This App",
+  "Technology Citations"
 ]
 
 
