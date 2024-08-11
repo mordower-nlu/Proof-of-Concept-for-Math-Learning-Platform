@@ -19,6 +19,7 @@ import { InterestVocabCheckForUnderstanding } from './Pages/Part 1 - Introductio
 import { InterestAnecdote1 } from './Pages/Part 2 - Sandra Example/InterestAnecdote1';
 import { ExternalTools } from './Pages/References/ExternalLibraryCitations';
 import { SandraBankA } from './Pages/Part 2 - Sandra Example/SandraBankA';
+import { SandraBankB } from './Pages/Part 2 - Sandra Example/SandraBankB';
 
  //Glorified switch statement for deciding which content to render.
  const pages = [
@@ -28,6 +29,7 @@ import { SandraBankA } from './Pages/Part 2 - Sandra Example/SandraBankA';
   <InterestVocabCheckForUnderstanding/>,
   <InterestAnecdote1/>,
   <SandraBankA/>,
+  <SandraBankB/>,
   <DesignSummary/>,
   <ListOfDesignConsiderations/>,
   <ThingsIdLikeToChange/>,
@@ -43,6 +45,7 @@ const pageDescriptions = [
   "Vocab Check for Understanding: Interest",
   "A Story About Interest: Part 1",
   "Bank A\'s Offer",
+  "Bank B\'s Offer",
   "Project Context Summary",
   "Design Considerations",
   "Things I\'d Like to Improve for This App",
