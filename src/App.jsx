@@ -32,8 +32,8 @@ const pageDescriptions = [
   "Lesson Overview",
   "Why People Borrow",
   "Vocabulary: Interest",
-  "Design Summary",
-  "Visual Design Considerations",
+  "Project Context Summary",
+  "Design Considerations",
   "Things I\'d Like to Improve for This App"
 ]
 

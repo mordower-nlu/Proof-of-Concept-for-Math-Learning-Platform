@@ -4,7 +4,6 @@ export function DesignSummary(){
     return <>
         <p className="content-header">Design Considerations:</p>
         <div className="content-body">
-        <hr/>
             <p>This website was created for LSE-542, a class centered on digital learning.</p>
             <p>Leveraging content from the course, as well as some preexisting design knowledge I possessed, I attempted to apply some best practices in this website creation.</p>
             <p>I also tried to apply other principles from other classes I've taken in this program.</p>
