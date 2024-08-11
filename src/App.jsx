@@ -4,20 +4,21 @@ import './App.css'
 import './Styles/nlustyles.css';
 import './Styles/animations.css';
 import { InlineMath, BlockMath } from 'react-katex';
-import { InterestLessonOverview } from './Pages/InterestLessonOverview';
-import { DefinitionOfInterestReflectionQuestion1 } from './Pages/InterestDefinitionReflectionQ1';
+import { InterestLessonOverview } from './Pages/Part 1 - Introduction to the Lesson/InterestLessonOverview';
+import { DefinitionOfInterestReflectionQuestion1 } from './Pages/Part 1 - Introduction to the Lesson/InterestDefinitionReflectionQ1';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button, ButtonGroup, Stack } from 'react-bootstrap';
 import { DesignSummary } from './Pages/Design Summary Pages/DesignSummary';
-import { VocabDefinitionInterest } from './Pages/VocabDefinitionInterest';
+import { VocabDefinitionInterest } from './Pages/Part 1 - Introduction to the Lesson/VocabDefinitionInterest';
 import { Glossary } from './Pages/GlossaryContainer';
 import { ThingsIdLikeToChange } from './Pages/Design Summary Pages/ThingsIdLikeToChange';
 import { ListOfDesignConsiderations } from './Pages/Design Summary Pages/DesignConsiderations';
-import { InterestVocabCheckForUnderstanding } from './Pages/VocabularyInterestCheck';
-import { InterestAnecdote1 } from './Pages/Sandra Example/InterestAnecdote1';
+import { InterestVocabCheckForUnderstanding } from './Pages/Part 1 - Introduction to the Lesson/VocabularyInterestCheck';
+import { InterestAnecdote1 } from './Pages/Part 2 - Sandra Example/InterestAnecdote1';
 import { ExternalTools } from './Pages/References/ExternalLibraryCitations';
+import { SandraBankA } from './Pages/Part 2 - Sandra Example/SandraBankA';
 
  //Glorified switch statement for deciding which content to render.
  const pages = [
@@ -26,6 +27,7 @@ import { ExternalTools } from './Pages/References/ExternalLibraryCitations';
   <VocabDefinitionInterest/>,
   <InterestVocabCheckForUnderstanding/>,
   <InterestAnecdote1/>,
+  <SandraBankA/>,
   <DesignSummary/>,
   <ListOfDesignConsiderations/>,
   <ThingsIdLikeToChange/>,
@@ -40,6 +42,7 @@ const pageDescriptions = [
   "Vocabulary: Interest",
   "Vocab Check for Understanding: Interest",
   "A Story About Interest: Part 1",
+  "Bank A\'s Offer",
   "Project Context Summary",
   "Design Considerations",
   "Things I\'d Like to Improve for This App",

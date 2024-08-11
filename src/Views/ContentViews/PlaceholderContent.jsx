@@ -1,9 +1,10 @@
-export function PlaceholderContent({title}){
+export function PlaceholderContent({title,description}){
 
     return <>
         <p className="content-header">{title}</p>
         <div className="content-body">
-            <p>Under Construction.</p>
+            <p><b>Under Construction.</b></p>
+            {description}
         </div>
     
     </>

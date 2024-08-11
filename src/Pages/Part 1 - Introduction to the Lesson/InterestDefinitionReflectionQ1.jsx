@@ -1,7 +1,7 @@
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from "react-bootstrap";
-import { ReflectionAnswerView } from "../Views/ContentViews/ReflectionAnswerView";
-import { ReflectionQuestionView } from "../Views/ContentViews/ReflectionQuestionView";
-import { SetFadeAnimationParameters } from "../Utilities/SetAnimationParameters";
+import { ReflectionAnswerView } from "../../Views/ContentViews/ReflectionAnswerView";
+import { ReflectionQuestionView } from "../../Views/ContentViews/ReflectionQuestionView";
+import { SetFadeAnimationParameters } from "../../Utilities/SetAnimationParameters";
 
 function reflectionAnswer(){return <div >
     <p style={SetFadeAnimationParameters(2,0)}><b>Answer:</b></p>

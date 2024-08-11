@@ -1,4 +1,4 @@
-import { SetFadeAnimationParameters } from "../Utilities/SetAnimationParameters";
+import { SetFadeAnimationParameters } from "../../Utilities/SetAnimationParameters";
 
 export function VocabDefinitionInterest(){
 
