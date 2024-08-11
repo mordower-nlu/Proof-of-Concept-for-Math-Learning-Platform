@@ -1,10 +1,19 @@
-import { Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
+import { useState } from "react";
+
+
 
 
 
 export function InterestLessonOverview(){
-    return <>
-        <p className={"content-header"}>Lesson Overview:</p>
+    const [lessonStart,setLessonStart]=useState(false);
+
+    const lessonStartScreen = <div className="content-body">
+        <p>Click the button below to begin our lesson on <b>interest</b>.</p>
+        <Button onClick={()=>setLessonStart(true)}>Start</Button>
+    </div>
+
+    const lessonContent =  <>
         <div className="animation-paragraph-fade content-body">
             <p>In this lesson we will:</p>
             <p>-learn about <strong>interest</strong>, a key concept in finance.</p>
@@ -15,6 +24,14 @@ export function InterestLessonOverview(){
             </p>
             <p>-learn how interest is calculated.</p>
         </div>
+    
+    </>
+
+    return <>
+        <p className={"content-header"}>Lesson Overview:</p>
+        {
+            (lessonStart)?lessonContent:lessonStartScreen
+        }
     </>
     
     
