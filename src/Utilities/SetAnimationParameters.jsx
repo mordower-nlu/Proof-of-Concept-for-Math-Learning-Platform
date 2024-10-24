@@ -1,5 +1,8 @@
 export var fadeAnimationMultiplier = 1; //Changing this changes the animation speed, I think.
 
+
+
+
 export function SetFadeAnimationParameters(duration,delay){  
     return {
             opacity: "0",
